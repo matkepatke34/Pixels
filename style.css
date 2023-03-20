@@ -1,0 +1,87 @@
+/* Styles for the canvas element */
+canvas {
+    border: 1px solid black;
+  }
+  
+  /* Styles for the color palette */
+  #palette {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+  
+  /* Styles for the player profile modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 500px;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal-content input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .modal-content button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .modal-content #close-modal-button {
+    background-color: #f44336;
+  }
+  
+  /* Styles for the player profile button */
+  #view-profile-button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #view-profile-button:hover {
+    background-color: #3e8e41;
+  }
+  

@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pixel Drawing Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div id="palette"></div>
+    <div id="profile-modal" class="modal">
+      <div class="modal-content">
+        <h2>Player Profile</h2>
+        <label for="profile-name-input">Enter your name:</label>
+        <input type="text" id="profile-name-input" name="profile-name-input">
+        <button id="save-profile-button">Save</button>
+        <button id="close-modal-button">Close</button>
+        <h3>Your Profile</h3>
+        <p>Name: <span id="profile-name"></span></p>
+        <p>Pixels Placed: <span id="pixels-placed"></span></p>
+      </div>
+    </div>
+    <button id="view-profile-button">View Profile</button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
